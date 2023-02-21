@@ -145,4 +145,4 @@ CACHES = {
     }
 }
 
-APIKEY = 'e46cb086-b0f6-11ed-813b-0200cd936042'
+APIKEY = ""
