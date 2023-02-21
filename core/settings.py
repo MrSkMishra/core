@@ -131,3 +131,18 @@ EMAIL_USE_TLS = True
 EMAIL_PORT = 587
 EMAIL_HOST_USER = 'sonum7237@gmail.com'
 EMAIL_HOST_PASSWORD = 'thhvwvcnkguqnomo'
+
+
+
+
+CACHES = {
+    "default": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/1",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    }
+}
+
+APIKEY = 'e46cb086-b0f6-11ed-813b-0200cd936042'

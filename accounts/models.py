@@ -42,3 +42,8 @@ def send_email_token(sender,instance,created,**kwargs):
 
         except Exception as e:
             print(e)
+
+
+
+# https://www.google.com/search?q=github+redis+msi&rlz=1C1UEAD_enIN1036IN1036&oq=github+redis+msi&aqs=chrome..69i57j69i64.9848j0j4&sourceid=chrome&ie=UTF-8
+# for reddis download
